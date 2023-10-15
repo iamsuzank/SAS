@@ -1,0 +1,15 @@
+Correlaton:
+1. out of all the 161 independent variables, we checked the data types of all the variables.
+2. We removed the numerical and categorical variables and only kept the numerical variables.
+3. We calculated the pearson correlation,using proc corr which helped to shorlist our independent variables to 119 
+which are statistacially significant to the 95% confidence interval
+
+
+EDA:
+Out of all the independent Variables we selected the top 8 variables we got from the correlation as a sample for Explorator Data Analysis.
+These Top 8 Variables are:
+
+Final Model:
+1.To find the most important variables in final model we further shorlisted the variables using stepwise regression model.
+2. Using Stepwise Regression we were able to shorlist the variables we got from correlation from 119 to 72
+3. We checked the all these variables and remove similar variables and find the 14 most important variableswhich have meaning contribution to the model.
